@@ -24,5 +24,5 @@ These were the steps executed:
     - Crate a Target Group with Health Check using protocol HTTP and looking for Success code 200,301 and 302
     - EC2 Instance was attached to the target group using port 2323
     - 2 Load Balancer Listeners
-        > 1 on port 2323 redirecting to the Target group
-        > 1 on Port 443 for TLS termination with a *.garaiza.com certificate attached.
+        * 1 on port 2323 redirecting to the Target group
+        * 1 on Port 443 for TLS termination with a *.garaiza.com certificate attached.
